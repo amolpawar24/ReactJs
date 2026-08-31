@@ -2,6 +2,7 @@
 import Functional1 from "./components/Functional1"
 import Arrow from "./components/ArrowFunctional"
 import DefFunction, { Fun1, Fun2, Fun3, Fun4, Fun5 } from "./components/MultipleArrowFunction"
+import Greet, { Greet1 } from "./components/Greet"
 function App() {
 
   return (
@@ -19,6 +20,10 @@ function App() {
       {/* <Fun4/> */}
       {/* <Fun5/> */}
       {/* <DefFunction/> */}
+
+      {/* Greet Function  */}
+      {/* <Greet/> */}
+      <Greet1/>
 
     </>
   )
